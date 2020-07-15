@@ -89,9 +89,8 @@
     - 사용 방법
         - [https://developer.android.com/guide/navigation/navigation-pass-data](https://developer.android.com/guide/navigation/navigation-pass-data)
         - 받는 쪽 데이터 정의
-
-            ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c2febd3-2275-4669-9a5a-71e3adfccc60/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c2febd3-2275-4669-9a5a-71e3adfccc60/Untitled.png)
-
+            nav_graph.xml > 받는 쪽 Fragment 클릭 > Attributes > Arguments + 클릭
+            
         - 보내는 쪽 소스
 
             ```java
