@@ -89,7 +89,7 @@
     - 사용 방법
         - [https://developer.android.com/guide/navigation/navigation-pass-data](https://developer.android.com/guide/navigation/navigation-pass-data)
         - 받는 쪽 데이터 정의
-            nav_graph.xml > 받는 쪽 Fragment 클릭 > Attributes > Arguments + 클릭
+            - nav_graph.xml > 받는 쪽 Fragment 클릭 > Attributes > Arguments + 클릭
             
         - 보내는 쪽 소스
 
