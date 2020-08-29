@@ -12,7 +12,13 @@
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/action_mainFragment_to_secondFragment"
-            app:destination="@id/secondFragment" />
+            app:destination="@id/secondFragment" >
+            <argument
+                android:name="var" />
+        </action>
+        <action
+            android:id="@+id/action_mainFragment_to_thirdFragment"
+            app:destination="@id/thirdFragment" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
@@ -21,6 +27,19 @@
         tools:layout="@layout/fragment_second" >
         <argument
             android:name="var"
-            app:argType="string" />
+            app:argType="string"
+            android:defaultValue="From Menu" />
+        <action
+            android:id="@+id/action_secondFragment_to_thirdFragment"
+            app:destination="@id/thirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.dongy.navigation.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment_to_mainFragment2"
+            app:destination="@id/mainFragment" />
     </fragment>
 </navigation>
